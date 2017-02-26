@@ -24,7 +24,7 @@ When(/^user enters their own name$/) do
 
   clear_text_in("webview css:'#name_input'")
 
-  #clear can be done thriugh shell cmds also
+  #clear can be done through shell cmds also
   #21.times do
     #system("adb shell input keyevent KEYCODE_DEL")
    # sleep 1
