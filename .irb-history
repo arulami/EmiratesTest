@@ -1,0 +1,50 @@
+touch("webview css:'#name_input'")
+query("* css:'*'")
+query("webView css:'*'")
+clear_text_in("webview css:'#name_input'")
+clear_text_in("webview css:'#name_input' idex:5")
+
+start_test_server_in_background
+clear_text_in("webview css:'#name_input'")
+ touch("webview css:'*' nodeName:'INPUT' index:5")
+
+ touch("webview css:'*' nodeName:'INPUT' index:5")
+ touch("webview css:'*' nodeName:'INPUT'")[5]
+hide_soft_keyboard()
+query("webView css:'*'")
+query('*')
+query("webView css:'*'")
+query("webView css:'*' nodeName:'Br'"")
+query("webView css:'*' nodeName:'Br'"")
+query("webView css:'*' nodeName:'Br'")
+query("webView css:'*' nodeType:'ELEMENT_NODE'")
+query("webView css:'*' nodeName:'INPUT'")
+touch("webView css:'*' nodeName:'INPUT'")
+query("webView css:'*'")
+query("webView css:'*' html:'<br>'")
+touch("webView css:'*' html:'<br>'")
+touch("webView css:'*'")
+query("webView css:'*'")
+query("webView css:'*' nodeType:'ELEMENT_NODE'")
+query("webView css:'*' nodeType:'ELEMENT_NODE'").size
+query("webView css:'*' nodeType:'ELEMENT_NODE'")[9]
+query("webView css:'*' nodeType:'ELEMENT_NODE'")[8]
+query("webView css:'*' nodeType:'ELEMENT_NODE'")[7]
+query("webView css:'*' nodeType:'ELEMENT_NODE'")[6]
+query("webView css:'*' nodeType:'ELEMENT_NODE'")[5]
+query("webView css:'*' nodeType:'ELEMENT_NODE'")[4]
+touch("webView css:'*' nodeType:'ELEMENT_NODE'")[9]
+touch("webView css:'*' nodeType:'ELEMENT_NODE'")[8]
+touch("webView css:'*' nodeType:'ELEMENT_NODE'")[
+hide_soft_keyboard()
+start_test_server_in_background
+hide_soft_keyboard()
+clear_text_in("webview css:'#name_input'")
+query("webView css:'*'")
+query("webView css:'*' nodeName:'BR'").size
+touch("webView css:'*' nodeName:'BR'")
+touch("webView css:'*' nodeName:'BR'")[1]
+touch("webView css:'*' nodeName:'BR' index:1")
+touch("webView css:'*' nodeName:'BR' index:2")
+touch("webView css:'*' nodeName:'BR' index:3")
+exit
