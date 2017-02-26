@@ -57,7 +57,7 @@ end
 #trigger pop up
 When(/^the user taps on display a popup window$/) do
   wait_for_elements_exist("* id:'buttonTest'", :timeout => 30, :retry_frequency => 1, :post_timeout => 0.5, :screenshot_on_error => false)
-
+  sleep 2
   touch("* id:'buttonTest'")
 end
 
